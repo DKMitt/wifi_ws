@@ -3,6 +3,7 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 
 ### WiFi Weather Station Description
 Device can be used to monitor weather conditions in agricultural, industrial or commercial applications which can be expanded to monitor numerous other types of information according to the need of the market and sensors available. 
+
 Project is to measure the temperature and humidity in real time with sensors and then transmit the data wirelessly via WiFi to a MySQL or Cloud based database (like THINGSPEAK, a cloud based storage for iot devices) and then display the data by various web technologies in a website interface.
 
 ### Features to have:
