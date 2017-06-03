@@ -62,8 +62,8 @@ Project is to measure the temperature and humidity in real time with sensors and
 
 ### Hardware Used
 
-  - Feather Huzzah ESP8266 WiFi 
-  - DHT-11 Temperature & Humidity Sensor
+  - Adafruit Feather HUZZAH ESP8266 development board with built in USB and battery charging 
+  - DHT-11 digital temperature and humidity sensor
   
 
 ----
