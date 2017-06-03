@@ -13,7 +13,8 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
   - [ ]  test data sending to database
   - [ ]  website wire framing
   - [ ]  website coding
-  - [ ]  file and directory structure layout
+  - [ ]  file and directory structure cleanup
+  - [ ]  final testing
   
 ----
 
