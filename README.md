@@ -6,7 +6,7 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 
 ### Project Status - in process, last updated 6/2/2017
 
-  - [ ]  hardware layout
+  - [x]  hardware layout
   - [ ]  hardware assembly 
   - [ ]  hardware code & embedding
   - [ ]  cloud database creation
@@ -15,7 +15,7 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
   - [ ]  website coding
   - [ ]  file and directory structure layout
   
-
+----
 
 ### Table of Contents
 
@@ -30,13 +30,15 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
   -  Website resources
   -  Revision history
   
-
+----
 
 ### WiFi Weather Station Description
 App & Device can be used to monitor weather conditions in agricultural, industrial or commercial applications and can be expanded to monitor numerous other types of data according to the need of the client, market and by sensors available. 
 
 Project is to measure the temperature and humidity in real time with sensors and then transmit the data wirelessly via WiFi to a MySQL, MongoDB or a Cloud based database (like THINGSPEAK, cloud based storage for iot devices) and then display the data with various web technologies in a website interface.
 
+
+----
 
 ### Features to have:
 - MySQL, MongoDB or a Cloud based data logging of temperature & humidity via WiFi
@@ -45,6 +47,9 @@ Project is to measure the temperature and humidity in real time with sensors and
 - Weather forcasting provided by 3rd party source by API
 - Battery powered, portable device
 
+
+----
+
 ### Features to create if time or for future uses:
 - data logging of additional sensors (for Agricultural, industrial or commercial Applications)
 - Device location via GPS
@@ -52,17 +57,22 @@ Project is to measure the temperature and humidity in real time with sensors and
 - Solar powered battery source
 
 
+----
+
 ### Hardware Used
 
   - Feather Huzzah ESP8266 WiFi 
   - DHT-11 Temperature & Humidity Sensor
   
 
+----
+
 ### Technologies Used
 
 Description of technologies used goes here
 
 
+----
 
 ### How The App Should Work
 
@@ -70,11 +80,15 @@ Description of how the app should work here
 
 
 
+----
+
 ### How to use this app
 
 Description of how ro use the app here
 
 
+
+----
 
 ### File and directory structure
 
@@ -84,16 +98,14 @@ Description of how ro use the app here
 ```
 
 
+----
 ### Website Resources 
 
 Description of revisions made to the app here
 
 
+----
 ### Revision History 
 
 Description of revisions made to the app here
-
-
-
-
 
