@@ -69,14 +69,14 @@ Project is to measure the temperature and humidity in real time with sensors and
 
 ### Technologies Used
 
-Description of technologies used goes here
+Description of technologies used goes
 
 
 ----
 
 ### How The App Should Work
 
-Description of how the app should work here
+Description of how the app should work
 
 
 
@@ -84,7 +84,7 @@ Description of how the app should work here
 
 ### How to use this app
 
-Description of how ro use the app here
+Description of how to use the app
 
 
 
@@ -101,7 +101,7 @@ Description of how ro use the app here
 ----
 ### Website Resources 
 
-Description of revisions made to the app here
+Links to the resources used in the creation of this app
 
 
 ----
