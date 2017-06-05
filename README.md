@@ -68,7 +68,7 @@ Project is to measure the temperature and humidity in real time with sensors and
   - DHT-11 digital temperature and humidity sensor
   
   
-  WiFi Weather Station Breadboard Layout
+  WiFi Weather Station Breadboard Layout  
 ![WiFi Weather Station Breadboard Layout](assets/img/ESP8266-DHT11.jpg)
 	
 
