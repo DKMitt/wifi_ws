@@ -1,7 +1,7 @@
 # WiFi Weather Station
 WiFi Weather Station is to measure the temperature and humidity in real time with sensors and then transmit the data wirelessly via WiFi to a database and then display the data by various web technologies in a website interface.
 
-![WiFi Weather Station](assets/img/smart-farm.jpg)
+![WiFi Weather Station](public/assets/img/smart-farm.jpg)
 
 
 ### Project Status - in process, last updated 6/4/2017
@@ -69,7 +69,7 @@ Project is to measure the temperature and humidity in real time with sensors and
   
   
   WiFi Weather Station Breadboard Layout  
-![WiFi Weather Station Breadboard Layout](assets/img/ESP8266-DHT11.jpg)
+![WiFi Weather Station Breadboard Layout](public/assets/img/ESP8266-DHT11.jpg)
 	
 
 ----
