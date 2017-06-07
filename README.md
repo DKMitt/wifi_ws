@@ -4,10 +4,10 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 ![WiFi Weather Station](public/assets/img/smart-farm.jpg)
 
 
-### Project Status - in process, last updated 6/4/2017
+### Project Status - in process, last updated 6/5/2017
 
   - [x]  hardware layout - 6/2/2017
-  - [ ]  hardware prototype assembly 
+  - [x]  hardware prototype assembly - 6/5/2017
   - [ ]  hardware coding & embedding
   - [ ]  cloud database creation
   - [ ]  configure to send data to database
