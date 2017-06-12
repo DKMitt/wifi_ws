@@ -4,11 +4,11 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 ![WiFi Weather Station](public/assets/img/smart-farm.jpg)
 
 
-### Project Status - in process, last updated 6/5/2017
+### Project Status - in process, last updated 6/12/2017
 
   - [x]  hardware layout - 6/2/2017
   - [x]  hardware prototype assembly - 6/5/2017
-  - [ ]  hardware coding & embedding
+  - [ ]  hardware coding & embedding - Inprocess 6/12/17
   - [ ]  cloud database creation
   - [ ]  configure to send data to database
   - [ ]  test data sending to database  
@@ -71,7 +71,8 @@ Project is to measure the temperature and humidity in real time with sensors and
   WiFi Weather Station Breadboard Layout  
 ![WiFi Weather Station Breadboard Layout](public/assets/img/ESP8266-DHT11.jpg)
 	
-
+Code used for programming the Adafruit Feather HUZZAH ESP8266 board is located in the directory "feather_huzzah_esp8266_code".  I will not be covering how to or what the code portion of the Adafruit Feather HUZZAH ESP8266 board in this description but may at some point include a seperate write up on how to do that.Below in RESOURCES you will find links to where i sourced information used to create the code used for this project.
+	
 ----
 
 ### Technologies Used
