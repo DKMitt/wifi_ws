@@ -71,7 +71,7 @@ Project is to measure the temperature and humidity in real time with sensors and
   WiFi Weather Station Breadboard Layout  
 ![WiFi Weather Station Breadboard Layout](public/assets/img/ESP8266-DHT11.jpg)
 	
-Code used for programming the Adafruit Feather HUZZAH ESP8266 board is located in the directory "feather_huzzah_esp8266_code".  I will not be covering how to or what the code portion of the Adafruit Feather HUZZAH ESP8266 board in this description but may at some point include a seperate write up on how to do that.Below in RESOURCES you will find links to where i sourced information used to create the code used for this project.
+Code used for programming the Adafruit Feather HUZZAH ESP8266 board is located in the directory "feather_huzzah_esp8266_code".  I will not be covering how to or about the code portion of the Adafruit Feather HUZZAH ESP8266 board in this description but may at some point include a seperate write up on how to do that. Below in RESOURCES you will find links to where i sourced information used to create the code used for this project.
 	
 ----
 
@@ -102,6 +102,58 @@ Description of how to use the app
 
 ```
 
+.
+├── app
+│   ├── components
+│   │      │
+│   │      ├── Child.js
+│   │      │
+│   │      ├── Grandchild.js
+│   │      │
+│   │      └── Parent.js
+│   │
+│   ├── utils
+│   │      │
+│   │      └── helpers.js
+│   │
+│   └── app.js
+│ 
+├── feather_huzzah_esp8266_code
+│   │
+│   └── weatherStationESP8266.ino
+│
+├── models
+│   │
+│   └── wifiws.js
+│ 
+├── public
+│   ├── assets
+│   │   ├── css
+│   │   │   │
+│   │   │   └── wifiws_style.css
+│   │   │
+│   │   └── img
+│   │       │
+│   │       ├── ESP8266-DHT11.jpg
+│   │       │
+│   │       ├── ESP8266-DHT11-1.jpg
+│   │       │
+│   │       ├── logo.jpg
+│   │       │
+│   │       └── smart-farm.jpg
+│   │
+│   └── index.html
+│
+├── .gitignore
+│
+├── package.json
+│
+├── README.md
+│
+├── server.js
+│
+└── webpack.config.js
+              
 
 ```
 
@@ -111,6 +163,15 @@ Description of how to use the app
 
 Links to the resources used in the creation of this app
 
+Hardware 
+
+
+
+Hardware Code
+
+
+
+Website Development
 
 ----
 ### Revision History 
