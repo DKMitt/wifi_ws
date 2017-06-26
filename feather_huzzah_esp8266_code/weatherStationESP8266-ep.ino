@@ -1,7 +1,8 @@
-// Adafruit feather HUZZAH ESP8266 with DHT11
-// sends temperature and humidity readings to serial monitor
-// and ThingSpeak via WiFi and creates local server to view at
-// various routes. Plain temperature, plain humidity, json, xml, and html
+// Adafruit feather HUZZAH ESP8266 with DHT11 sensor that
+// sends temperature and humidity readings to a serial monitor,
+// ThingSpeak cloud database via WiFi, and creates local server to view at
+// various information at different routes such as plain temperature, 
+// plain humidity, json, xml, and html.
 
 
 #include <ESP8266WiFi.h>
