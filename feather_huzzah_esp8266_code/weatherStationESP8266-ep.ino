@@ -29,8 +29,8 @@ const char* password = "YOUR_WIFI_PASSWORD";
 // DHT Sensor pin. Default is D2
 const int DHTPin = 2;
 
-// interval for sending data to cloud service. Default = 20 seconds
-const long sendInterval = 20000;
+// interval for sending data to cloud service. Default = 60 seconds
+const long sendInterval = 60000;
 
 
 //////////////////////////////
