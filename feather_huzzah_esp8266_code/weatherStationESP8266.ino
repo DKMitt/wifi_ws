@@ -1,3 +1,5 @@
+// sends temperature and humidity readings to serial monitor
+
 // Libraries
 #include "DHT.h"
 
