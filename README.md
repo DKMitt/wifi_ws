@@ -10,8 +10,8 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
   - [x]  hardware prototype assembly - 6/5/2017
   - [x]  hardware coding & embedding - Inprocess 6/26/17
   - [x]  cloud database creation - Inprocess 6/26/17
-  - [-]  configure to send data to database - Inprocess 6/26/17
-  - [-]  testing data sending to database - Inprocess 6/26/17
+  - [x]  configure to send data to database - Inprocess 6/26/17
+  - [x]  testing data sending to database - Inprocess 6/26/17
   - [x]  file and directory structure creation  - updated 6/13/2017
   - [ ]  website wire framing  
   - [ ]  website coding
