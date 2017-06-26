@@ -1,3 +1,4 @@
+// Adafruit feather HUZZAH ESP8266 with DHT11 sensor that
 // sends temperature and humidity readings to serial monitor
 
 // Libraries
