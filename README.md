@@ -62,10 +62,18 @@ Project is to measure the temperature and humidity in real time with sensors and
 
 ----
 
-### Hardware Used
+### Hardware For Project
+
+Parts Used
 
   - Adafruit Feather HUZZAH ESP8266 development board with built in USB and battery charging 
-  - DHT-11 digital temperature and humidity sensor  
+
+
+  - DHT-11 digital temperature and humidity sensor
+
+
+  - 10K Ohm Resistor, 5%, 1/4 watt Color code: Brown, Black, Orange, Gold  
+
   
   
   WiFi Weather Station Breadboard Layout  
