@@ -1,5 +1,5 @@
 {
-  "name": "WiFi Weather Station",
+  "name": "wifiweatherstation",
   "version": "0.1.0",
   "description": "WiFi Weather Station with Data Tracking",
   "private": false,
