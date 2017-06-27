@@ -8,11 +8,11 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 
   - [x]  hardware layout - 6/2/2017
   - [x]  hardware prototype assembly - 6/5/2017
-  - [x]  hardware coding & embedding - Inprocess 6/26/17
-  - [x]  cloud database creation - Inprocess 6/26/17
-  - [x]  configure to send data to database - Inprocess 6/26/17
-  - [x]  testing data sending to database - Inprocess 6/26/17
-  - [x]  file and directory structure creation  - updated 6/13/2017
+  - [x]  hardware coding & embedding - In process 6/26/17
+  - [x]  cloud database creation - In process 6/26/17
+  - [x]  configure to send data to database - In process 6/26/17
+  - [x]  testing data sending to database - In process 6/26/17
+  - [x]  file and directory structure creation  - updated 6/26/2017
   - [ ]  website wire framing  
   - [ ]  website coding
   - [ ]  file and directory structure cleanup
@@ -38,7 +38,7 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 ### WiFi Weather Station Description
 App & Device can be used to monitor weather conditions in agricultural, industrial or commercial applications and can be expanded to monitor numerous other types of data according to the need of the client, market and by sensors available. 
 
-Project is to measure the temperature and humidity in real time with sensors and then transmit the data wirelessly via WiFi to a MongoDB or a Cloud based database (like THINGSPEAK or UBIDOTS, cloud based storage for iot devices) and then display the data with various web technologies in a website interface.
+Project is to measure the temperature and humidity in real time with sensors and then transmit the data wirelessly via WiFi to a MongoDB or a Cloud based database (like THINGSPEAK, cloud based storage for iot devices) and then display the data with various web technologies in a website interface.
 
 
 ----
@@ -109,37 +109,17 @@ Description of how to use the app
 ### File and directory structure
 
 ```
-
 .
-├── app
-│   ├── components
-│   │      │
-│   │      ├── Child.js
-│   │      │
-│   │      ├── Grandchild.js
-│   │      │
-│   │      └── Parent.js
-│   │
-│   ├── utils
-│   │      │
-│   │      └── helpers.js
-│   │
-│   └── app.js
-│ 
 ├── feather_huzzah_esp8266_code
 │   │
-│   └── weatherStationESP8266.ino
-│
-├── models
+│   ├── weatherStationESP8266.ino
 │   │
-│   └── wifiws.js
+│   └── weatherStationESP8266-ep.ino
 │ 
 ├── public
+│   │
 │   ├── assets
-│   │   ├── css
-│   │   │   │
-│   │   │   └── wifiws_style.css
-│   │   │
+│   │   │
 │   │   └── img
 │   │       │
 │   │       ├── ESP8266-DHT11.jpg
@@ -150,19 +130,36 @@ Description of how to use the app
 │   │       │
 │   │       └── smart-farm.jpg
 │   │
-│   └── index.html
+│   ├── favicon.ico
+│   │
+│   ├── index.html
+│   │
+│   └── manifest.json
 │
+├── src
+│   │
+│   ├── App.css
+│   │
+│   ├── App.js
+│   │
+│   ├── App.test.js
+│   │
+│   ├── index.css
+│   │
+│   ├── index.js
+│   │
+│   ├── logo.svg
+│   │
+│   └── registerServiceWorker.js
+│ 
 ├── .gitignore
 │
 ├── package.json
 │
-├── README.md
+├── package-lock.json
 │
-├── server.js
-│
-└── webpack.config.js
+└── README.md
               
-
 ```
 
 
