@@ -29,7 +29,7 @@ ReactDOM.render(
 	        <li><Link to="/forecast"><button type="button" className="btn btn-warning">Forecast</button></Link></li>
 	        <li><Link to="/history"><button type="button" className="btn btn-success">History</button></Link></li>
 	        <li><Link to="/location"><button type="button" className="btn btn-primary">Location</button></Link></li>
-	        <li><Link to="/app"><button type="button" className="btn btn-info">About</button></Link></li>
+	        <li><Link to="/about"><button type="button" className="btn btn-info">About</button></Link></li>
 	      </ul>
 
 	      <hr/>
@@ -38,7 +38,7 @@ ReactDOM.render(
 	      <Route path="/forecast" component={Forecast}/>
 	      <Route path="/history" component={History}/>
 	      <Route path="/location" component={Location}/>
-	      <Route path="/app" component={About}/>    
+	      <Route path="/about" component={About}/>    
 	    </div>
   		</Router>, 
 	     
