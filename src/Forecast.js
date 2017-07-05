@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
 
-class Location extends Component {
+class Forecast extends Component {
 	render() {
 		return (
 
 			<div className="">
     	    <div className="">
 				<div>
-					<h2>Location</h2>
-					<h3>Locate Device</h3>
+					<h2>Forecast</h2>
+					<h3>Weather Forecast</h3>
 						<p>
-							Locate the WiFi Weather Station Device Location
+							WiFi Weather Station Weather Forecast
 						</p>
 				</div>	
 			</div>
-			</div>	
+			</div>
 		);
 	}
 }
 
-export default Location;
+export default Forecast;
