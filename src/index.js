@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import Home from './Home';
 import Forecast from './Forecast';
 import History from './History';
@@ -15,7 +14,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 ReactDOM.render(
 	  <div className="App">
         <div className="App-header">
-			<h2>  <img src="http://www.clker.com/cliparts/y/i/A/F/a/v/cloudy-sun-md.png" width="80px" height="auto" />  WiFi Weather Station</h2>
+			<h2>  <img src="http://www.clker.com/cliparts/y/i/A/F/a/v/cloudy-sun-md.png" alt="logo" width="80px" height="auto" />  WiFi Weather Station</h2>
 	    </div>
       </div>, 
   document.getElementById('top')
