@@ -4,7 +4,7 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 ![WiFi Weather Station](public/assets/img/smart-farm.jpg)
 
 
-### Project Status - in process, last updated 6/26/2017
+### Project Status - in process, last updated 7/5/2017
 
   - [x]  hardware layout - 6/2/2017
   - [x]  hardware prototype assembly - 6/5/2017
@@ -12,9 +12,9 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
   - [x]  cloud database creation - In process 6/26/17
   - [x]  configure to send data to database - In process 6/26/17
   - [x]  testing data sending to database - In process 6/26/17
-  - [x]  file and directory structure creation  - updated 6/26/2017
-  - [ ]  website wire framing  
-  - [ ]  website coding
+  - [x]  file and directory structure creation  - updated 7/5/2017
+  - [x]  website wire framing - In process 7/5/17
+  - [ ]  website coding - In process 7/5/17
   - [ ]  file and directory structure cleanup
   - [ ]  final testing
   
@@ -122,11 +122,13 @@ Description of how to use the app
 │   │   │
 │   │   └── img
 │   │       │
+│   │       ├── adafruit-feather-huzzah-esp8266.jpg
+│   │       │
+│   │       ├── DHT11.jpg
+│   │       │
 │   │       ├── ESP8266-DHT11.jpg
 │   │       │
-│   │       ├── ESP8266-DHT11-1.jpg
-│   │       │
-│   │       ├── logo.jpg
+│   │       ├── single10kOhm.jpg
 │   │       │
 │   │       └── smart-farm.jpg
 │   │
@@ -138,17 +140,25 @@ Description of how to use the app
 │
 ├── src
 │   │
+│   ├── About.js
+│   │
 │   ├── App.css
 │   │
 │   ├── App.js
 │   │
 │   ├── App.test.js
 │   │
+│   ├── Forecast.jss
+│   │
+│   ├── History.js
+│   │
+│   ├── Home.js
+│   │
 │   ├── index.css
 │   │
 │   ├── index.js
 │   │
-│   ├── logo.svg
+│   ├── Location.js
 │   │
 │   └── registerServiceWorker.js
 │ 
