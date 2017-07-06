@@ -5,13 +5,14 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/DKMitt/wifiws.git"
   },
   "author": "D. K. Mittlestaedt",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/DKMitt/wifiws/issues"
   },
+  "homepage": "https://github.com/DKMitt/wifiws#readme",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
