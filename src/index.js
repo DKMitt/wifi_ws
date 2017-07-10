@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 ReactDOM.render(
 	  <div className="App">
-        <div className="App-header">
+        <div className="App-header align-center">
 			<h2>  <img src="http://www.clker.com/cliparts/y/i/A/F/a/v/cloudy-sun-md.png" alt="logo" width="80px" height="auto" />  WiFi Weather Station</h2>
 	    </div>
       </div>, 
