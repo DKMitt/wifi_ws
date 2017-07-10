@@ -56,7 +56,6 @@ Project is to measure the temperature and humidity in real time with sensors and
 ### Features to create if time or for future uses:
 - Data logging of additional sensors (for Agricultural, industrial or commercial Applications)
 - Device location via GPS
-- Twitter alerts - low/high temperature or humidity, low battery level, ect...
 - Solar powered battery source to extend battery life
 
 
