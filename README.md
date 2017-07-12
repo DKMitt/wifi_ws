@@ -8,10 +8,10 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 
   - [x]  hardware layout - 6/2/2017
   - [x]  hardware prototype assembly - 6/5/2017
-  - [ ]  hardware coding & embedding - In process 7/10/17
+  - [x]  hardware coding & embedding - updated 7/12/17
   - [x]  cloud database creation - 7/9/17
-  - [ ]  configure to send data to database - In process 7/10/17
-  - [ ]  testing data sending to database - In process 7/10/17
+  - [x]  configure to send data to database - updated 7/12/17
+  - [x]  testing data sending to database - updated 7/12/17
   - [x]  file and directory structure creation  - updated 7/5/2017
   - [x]  website wire framing - 7/5/17
   - [ ]  website coding - In process 7/10/17
@@ -78,7 +78,15 @@ Parts Used
   WiFi Weather Station Breadboard Layout  
 ![WiFi Weather Station Breadboard Layout](public/assets/img/ESP8266-DHT11.jpg)
 	
-Code used for programming the Adafruit Feather HUZZAH ESP8266 board is located in the directory "feather_huzzah_esp8266_code".  I will not be covering how to or about the code portion of the Adafruit Feather HUZZAH ESP8266 board in this description but may at some point include a separate write up on how to do that. 
+Code used for programming the Adafruit Feather HUZZAH ESP8266 board is located in the directory  [feather_huzzah_esp8266_code](https://github.com/DKMitt/wifi_ws/tree/master/feather_huzzah_esp8266_code). 
+
+* __Definition of Code__
+  * [weatherStationESP8266.ino](<https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/weatherStationESP8266.ino>)  -  Used to test hardware was setup correctly, sends data to serial monitor. 
+  * [weatherStationESP8266-ep.ino](<https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/weatherStationESP8266-ep.ino>)  -  Used to send data via WiFi to ThingSpeak to verify that data was sending out to a database and receiving data in
+  * [wsESP8266-DHT11-Firebase.ino]()  -  Used to send data via WiFi to Firebase database
+
+
+I will not be covering how to or about the code portion of the Adafruit Feather HUZZAH ESP8266 board in this description but may at some point include a separate write up on how to do that. 
 
 Below in RESOURCES you will find links to where i sourced information used to create the code used for this project.
 	
