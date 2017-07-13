@@ -14,7 +14,7 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
   - [x]  testing data sending to database - updated 7/12/17
   - [x]  file and directory structure creation  - updated 7/5/2017
   - [x]  website wire framing - 7/5/17
-  - [ ]  website coding - In process 7/10/17
+  - [ ]  website coding - In process 7/12/17
   - [ ]  file and directory structure cleanup
   - [ ]  final testing
   
@@ -30,7 +30,6 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
   -  How the app should work
   -  How to use this app
   -  File and directory structure
-  -  Website resources
   -  Revision history
   
 ----
@@ -123,7 +122,9 @@ Description of how to use the app
 │   │
 │   ├── weatherStationESP8266.ino
 │   │
-│   └── weatherStationESP8266-ep.ino
+│   ├── weatherStationESP8266-ep.ino
+│   │
+│   └── wsESP8266-DHT11-Firebase.ino
 │ 
 ├── public
 │   │
@@ -177,26 +178,8 @@ Description of how to use the app
 │
 ├── package-lock.json
 │
-└── README.md
-              
+└── README.md            
 ```
-
-
-----
-### Website Resources 
-
-Links to the resources used in the creation of this app
-
-Hardware 
-
-
-
-Hardware Code
-
-
-
-Website Development
-
 ----
 ### Revision History 
 
