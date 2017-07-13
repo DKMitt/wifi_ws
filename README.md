@@ -80,9 +80,9 @@ Parts Used
 Code used for programming the Adafruit Feather HUZZAH ESP8266 board is located in the directory  [feather_huzzah_esp8266_code](https://github.com/DKMitt/wifi_ws/tree/master/feather_huzzah_esp8266_code). 
 
 * __Definition of Code__
-  * [weatherStationESP8266.ino](<https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/weatherStationESP8266.ino>)  -  Used to test hardware was setup correctly, sends data to serial monitor. 
-  * [weatherStationESP8266-ep.ino](<https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/weatherStationESP8266-ep.ino>)  -  Used to send data via WiFi to ThingSpeak to verify that data was sending out to a database and receiving data in
-  * [wsESP8266-DHT11-Firebase.ino]()  -  Used to send data via WiFi to Firebase database
+  * [weatherStationESP8266.ino](https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/weatherStationESP8266.ino)  -  Used to test hardware was setup correctly, sends data to serial monitor. 
+  * [weatherStationESP8266-ep.ino](https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/weatherStationESP8266-ep.ino)  -  Used to send data via WiFi to ThingSpeak to verify that data was sending out to a database and receiving data in
+  * [wsESP8266-DHT11-Firebase.ino](https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/wsESP8266-DHT11-Firebase.ino)  -  Used to send data via WiFi to Firebase database
 
 
 I will not be covering how to or about the code portion of the Adafruit Feather HUZZAH ESP8266 board in this description but may at some point include a separate write up on how to do that. 
