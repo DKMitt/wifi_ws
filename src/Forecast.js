@@ -24,6 +24,8 @@ class Forecast extends Component {
 			                <span className="btn-danger"><a href="/history">History</a></span><span className="btn-danger"><a href="/location">Location</a></span><span className="btn-danger"><a href="/forecast">Forecast</a></span>
 			            </div>    
 			        </div> 
+
+			        
   
 			        <div className="clear"></div>  
 			        <hr></hr>

@@ -6,10 +6,22 @@ import Forecast from './Forecast';
 import History from './History';
 import Location from './Location';
 import About from './About';
-
+import * as firebase from 'firebase';
 import registerServiceWorker from './registerServiceWorker';
 
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+var config = {
+apiKey: "",
+authDomain: "",
+databaseURL: "",
+projectId: "",
+storageBucket: "",
+messagingSenderId: ""
+};
+
+firebase.initializeApp(config);
+
 
 ReactDOM.render(
 	  <div className="App">
