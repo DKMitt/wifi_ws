@@ -4,17 +4,17 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 ![WiFi Weather Station](public/assets/img/smart-farm.jpg)
 
 
-### Project Status - in process, last updated 7/12/2017
+### Project Status - in process, last updated 7/17/2017
 
-  - [x]  hardware layout - 6/2/2017
-  - [x]  hardware prototype assembly - 6/5/2017
-  - [x]  hardware coding & embedding - updated 7/12/17
+  - [x]  hardware layout - 7/2/2017
+  - [x]  hardware prototype assembly - 7/5/2017
+  - [x]  hardware coding & embedding - updated 7/17/17
   - [x]  cloud database creation - 7/9/17
-  - [x]  configure to send data to database - updated 7/12/17
-  - [x]  testing data sending to database - updated 7/12/17
+  - [x]  configure to send data to database - updated 7/17/17
+  - [x]  testing data sending to database - updated 7/17/17
   - [x]  file and directory structure creation  - updated 7/5/2017
   - [x]  website wire framing - 7/5/17
-  - [ ]  website coding - In process 7/12/17
+  - [x]  website coding - In process 7/17/17
   - [ ]  file and directory structure cleanup
   - [ ]  final testing
   
@@ -37,7 +37,7 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 ### WiFi Weather Station Description
 App & Device can be used to monitor weather conditions in agricultural, industrial or commercial applications and can be expanded to monitor numerous other types of data according to the need of the client, market and by sensors available. 
 
-Project is to measure the temperature and humidity in real time with sensors and then transmit the data wirelessly via WiFi to Firebase, a real-time cloud database, and then display the data with various web technologies in a website interface.
+Project is to measure the temperature and humidity in real time with sensors and then transmit the data via WiFi to Firebase, a real-time cloud database, and then display the data with various web technologies in a website interface.
 
 
 ----
@@ -45,7 +45,7 @@ Project is to measure the temperature and humidity in real time with sensors and
 ### Features to have:
 - Use Firebase (a Backend-as-a-Service cloud storage), to store data on its real-time database to log data of temperature & humidity via WiFi
 - Results viewable by charts, tables and/or graphs in a website interface
-- Real time  temperature and humidity monitoring as polled from sensor 
+- Real time temperature and humidity monitoring as polled from sensor 
 - Weather forecasting provided by 3rd party source by API
 - Battery powered, portable device
 
