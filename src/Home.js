@@ -7,7 +7,8 @@ class Home extends Component {
 		super();
 		this.state = {
 			ctemp: 20,
-			chumidity: 21
+			chumidity: 21,
+			cvolts: 1.2
 		};
 	}
 
@@ -24,6 +25,13 @@ class Home extends Component {
 		chumidityRef.on('value', snap => {
 			this.setState({
 				chumidity: snap.val()
+			});
+		});
+
+		const cvoltsRef = rootRef.child('cvolts');
+		cvoltsRef.on('value', snap => {
+			this.setState({
+				cvolts: snap.val()
 			});
 		});
 	}
@@ -47,7 +55,7 @@ class Home extends Component {
 			        <h4>Current Temp:</h4> <h3>{this.state.ctemp}</h3>   <h4>Current Humidity:</h4> <h3> {this.state.chumidity} </h3>
 			        
 			        <div>
-			            <div className="more label"><a href="">Read more</a></div> 
+			            <div className="more label"><h5>Voltage State: {this.state.cvolts}</h5></div> 
 			            <div className="tags">
 			                <span className="btn-danger"><a href="/history">History</a></span><span className="btn-danger"><a href="/location">Location</a></span><span className="btn-danger"><a href="/forecast">Forecast</a></span>
 			            </div>   
