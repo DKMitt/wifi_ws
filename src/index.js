@@ -2,9 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './Home';
-import Forecast from './Forecast';
-import History from './History';
-import Location from './Location';
+import Data from './Data';
 import About from './About';
 import * as firebase from 'firebase';
 import registerServiceWorker from './registerServiceWorker';
@@ -12,12 +10,12 @@ import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 var config = {
-apiKey: "",
-authDomain: "",
-databaseURL: "",
-projectId: "",
-storageBucket: "",
-messagingSenderId: ""
+apiKey: "AIzaSyD9qgRhuaIqplj-GuPCldloniVjyUK0NhA",
+authDomain: "wifi-weather-station.firebaseapp.com",
+databaseURL: "https://wifi-weather-station.firebaseio.com",
+projectId: "wifi-weather-station",
+storageBucket: "wifi-weather-station.appspot.com",
+messagingSenderId: "433433277825"
 };
 
 firebase.initializeApp(config);
@@ -36,19 +34,15 @@ ReactDOM.render(
 		<Router>
 	    <div className="row">
 	      <ul className="nav nav-pills navbar-nav">
-	        <li><Link to="/"><button type="button" className="btn btn-default">Home</button></Link></li>
-	        <li><Link to="/forecast"><button type="button" className="btn btn-warning">Forecast</button></Link></li>
-	        <li><Link to="/history"><button type="button" className="btn btn-success">History</button></Link></li>
-	        <li><Link to="/location"><button type="button" className="btn btn-primary">Location</button></Link></li>
-	        <li><Link to="/about"><button type="button" className="btn btn-info">About</button></Link></li>
+	        <li><Link to="/"><button type="button" className="btn btn-primary">Home</button></Link></li>
+	        <li><Link to="/data"><button type="button" className="btn btn-success">Data</button></Link></li>
+	        <li><Link to="/about"><button type="button" className="btn btn-warning">About</button></Link></li>
 	      </ul>
 
 	      <hr/>
 
 	      <Route exact path="/" component={Home}/>
-	      <Route path="/forecast" component={Forecast}/>
-	      <Route path="/history" component={History}/>
-	      <Route path="/location" component={Location}/>
+	      <Route path="/data" component={Data}/>
 	      <Route path="/about" component={About}/>    
 	    </div>
   		</Router>, 
