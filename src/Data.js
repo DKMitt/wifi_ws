@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './index.css';
 import * as firebase from 'firebase';
 
-
 class Data extends Component {
 
 		constructor() {
@@ -14,15 +13,10 @@ class Data extends Component {
 			htemp: 0,
 			hhumidity: 0
 		};
-
 	}
-
 
 	componentDidMount() {
 		const rootRef = firebase.database().ref().child('wsdata');
-
-
-
 
 		const ctempRef = rootRef.child('ctemp');
 		ctempRef.on('value', snap => {
@@ -153,7 +147,5 @@ class Data extends Component {
 		);
 	}
 }
-
-
 
 export default Data;
