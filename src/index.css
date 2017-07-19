@@ -32,26 +32,6 @@ body {
     clear: both;    
 }
 
-.btn-danger {
-    margin-right: 15px;
-    text-transform: uppercase;
-    padding: 10px;
-    display: block;
-    float: left;
-}
-
-.btn-danger a {
-    display: block;
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-    color: #fff;
-}
-
-.more.label {
-    float: center;    
-}
-
 .align-center {
     margin: auto;
     text-align: center;
@@ -69,7 +49,6 @@ body {
    border-radius: 25px;
  }
 
-
 .center {
     float: center;
 }
@@ -82,8 +61,34 @@ body {
 	margin-top: 30px;
 }
 
+.panel-heading {
+	font-size: 16px;
+	font-weight: 500;
+}
+
 .panel-body {
 	background-color: white;
 	padding: 20px;
 }
 
+.inside-panel {
+	padding: 20px;
+	font-size: 14px;
+	color: black;
+}
+
+.smartfarm {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.esp8266dht11 {
+	max-width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.aboutcont {
+	color: black;
+}

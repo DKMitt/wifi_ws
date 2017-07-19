@@ -72,20 +72,56 @@ class Data extends Component {
 	
 				<div className="col-md-10 col-md-offset-1">
 			        <h2>Data</h2>
-			        <p>This is the JSON data stream</p>
+			        <p>This is the JSON data stream recieved from Firebase</p>
 
-			    
-			        <div className="panel panel-success">
+			    <div className="row">
+			        <div className="panel1 panel-success col-md-4">
 					    <div className="panel-heading">
-					       <span> JSON Data Temperature</span>
+					       <span> JSON Data - Current Temperature</span>
 					    </div>
 					    <div className="panel-body">
 					        <div className="row">
-					            <div className="col-lg-12">
-					                
-					                
-					                {JSON.stringify(this.state.htemp)}
+					            <div className="inside-panel">
+					                {JSON.stringify(this.state.ctemp)}
+					            </div>
+					        </div>
+					    </div>
+					</div>
+					<div className="panel1 panel-success col-md-4">
+					    <div className="panel-heading">
+					       <span> JSON Data - Current Humidity</span>
+					    </div>
+					    <div className="panel-body">
+					        <div className="row">
+					            <div className="inside-panel">
+					                {JSON.stringify(this.state.chumidity)}
+					            </div>
+					        </div>
+					    </div>
+					</div>
 
+					<div className="panel1 panel-success col-md-4">
+					    <div className="panel-heading">
+					       <span> JSON Data - Current Voltage</span>
+					    </div>
+					    <div className="panel-body">
+					        <div className="row">
+					            <div className="inside-panel">
+					                {JSON.stringify(this.state.cvolts)}
+					            </div>
+					        </div>
+					    </div>
+					</div>
+				</div>
+
+					<div className="panel panel-success">
+					    <div className="panel-heading">
+					       <span> JSON Data - Temperature History</span>
+					    </div>
+					    <div className="panel-body">
+					        <div className="row">
+					            <div className="inside-panel">
+					                {JSON.stringify(this.state.htemp)}
 					            </div>
 					        </div>
 					    </div>
@@ -93,15 +129,12 @@ class Data extends Component {
 
 					<div className="panel panel-success">
 					    <div className="panel-heading">
-					       <span> JSON Data - Humidity</span>
+					       <span> JSON Data - Humidity History</span>
 					    </div>
 					    <div className="panel-body">
 					        <div className="row">
-					            <div className="col-lg-12">
-					                
-					                
+					            <div className="inside-panel">
 					                {JSON.stringify(this.state.hhumidity)}
-
 					            </div>
 					        </div>
 					    </div>

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './index.css';
+import smartfarm from './img/smart-farm.jpg';
+import esp8266dht11 from './img/ESP8266-DHT11.jpg';
+
 
 class About extends Component {
 	render() {
@@ -21,8 +24,28 @@ class About extends Component {
 				    </div>
 				    <div className="panel-body">
 				        <div className="row">
-				            <div className="col-lg-12">
-				                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum ex eget porttitor sollicitudin. Morbi cursus tempor placerat. Pellentesque suscipit tortor in orci pretium, ac facilisis ex pretium. Fusce hendrerit orci diam, vitae tristique quam porttitor eu. Donec ligula orci, ultricies in sagittis non, porta sed lorem. Aenean interdum posuere mattis. Curabitur dignissim dictum quam, vitae malesuada velit tristique a. </p>
+				            <div className="col-lg-12 aboutcont">
+				                <img src={smartfarm} className="smartfarm img-fluid" alt="smartfarm" />
+				                <p></p>
+				                <p>This project is to measure the temperature and humidity in real time with sensor and then transmit the data via WiFi to Firebase, a real-time cloud database, and then display the data with various web technologies in a website interface. </p>
+				                <p></p>
+				                <p>App & Device can be used to monitor weather conditions in agricultural, industrial or commercial applications and can be expanded to monitor numerous other types of data according to the need of the client, market and by sensors available.</p>
+				                <p></p>
+				                <br></br>
+				                <p><b>WiFi Weather Station Breadboard Layout</b></p>
+								<img src={esp8266dht11} className="esp8266dht11 img-fluid" alt="ESP8266-DHT11" />
+				                <p> </p>
+				                <p><b>Hardware used for this project</b>
+				                <p></p>
+				                	<ul>
+				                		<li>Adafruit Feather HUZZAH ESP8266 development board with built in USB and battery charging</li>
+										<li>DHT-11 digital temperature and humidity sensor</li>
+										<li>10K Ohm Resistor, 5%, 1/4 watt Color code: Brown, Black, Orange, Gold</li>
+									</ul>
+								</p>
+								<p></p>
+								<br></br>
+								<p>Additional information on this project can be found by going to  <a href="https://github.com/DKMitt/wifi_ws" target="blank">https://github.com/DKMitt/wifi_ws</a></p>
 				            </div>
 				        </div>
 				    </div>
