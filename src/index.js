@@ -10,12 +10,12 @@ import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 var config = {
-apiKey: "AIzaSyD9qgRhuaIqplj-GuPCldloniVjyUK0NhA",
-authDomain: "wifi-weather-station.firebaseapp.com",
-databaseURL: "https://wifi-weather-station.firebaseio.com",
-projectId: "wifi-weather-station",
-storageBucket: "wifi-weather-station.appspot.com",
-messagingSenderId: "433433277825"
+apiKey: "YOUR_APIKEY",
+authDomain: "YOUR_AUTHDOMAIN",
+databaseURL: "YOUR_DATABASEURL",
+projectId: "YOUR_PROJECTID",
+storageBucket: "YOUR_STORAGEBUCKET",
+messagingSenderId: "YOUR_MESSAGINGSENDERID"
 };
 
 firebase.initializeApp(config);
