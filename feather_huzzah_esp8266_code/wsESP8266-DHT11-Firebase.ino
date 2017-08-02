@@ -61,6 +61,9 @@ void setup() {
   Serial.println(WiFi.localIP());
   
   Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
+
+  
+  
 }
 
 
@@ -82,7 +85,7 @@ void loop() {
       Serial.println(Firebase.error());  
       return;
   }
-  delay(10000);
+  delay(1000);
 
   
   // set value
@@ -93,7 +96,7 @@ void loop() {
       Serial.println(Firebase.error());  
       return;
   }
-  delay(10000);
+  delay(1000);
 
 
   // set voltage value
@@ -104,15 +107,14 @@ void loop() {
       Serial.println(Firebase.error());  
       return;
   }
-  delay(10000);
+  delay(1000);
 
 
   // sensor data
-  Firebase.push("wsdata/htemp", t);
-  Firebase.push("wsdata/hhumidity", h);
+  Firebase.push("wsdata/history/htemp", t);
+  Firebase.push("wsdata/history/hhumidity", h);
   // Firebase.push("wsdata/hvolts", v);
   
-
   Serial.println();
   Serial.print("temperature: ");
   Serial.println(t);
