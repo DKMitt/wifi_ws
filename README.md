@@ -1,5 +1,5 @@
 # WiFi Weather Station
-WiFi Weather Station is to measure the temperature and humidity in real time with sensors and then transmit the data wirelessly via WiFi to Firebase, a real-time cloud database, and then display the data by various web technologies in a website interface.
+WiFi Weather Station is to measure the temperature and humidity in real time with sensors and then transmit the data wirelessly via WiFi to Firebase, a real-time cloud database, and then display the data using REACT.JS to produce live results displaying on a website interface.
 
 ![WiFi Weather Station](public/assets/img/smart-farm.jpg)
 
@@ -26,7 +26,7 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 ### WiFi Weather Station Description
 App & Device can be used to monitor weather conditions in agricultural, industrial or commercial applications and can be expanded to monitor numerous other types of data according to the need of the client, market and by sensors available. 
 
-Project is to measure the temperature and humidity in real time with sensors and then transmit the data via WiFi to Firebase, a real-time cloud database, and then display the data with various web technologies in a website interface.
+Project is to measure the temperature and humidity in real time with a sensor and then transmit the data via WiFi to Firebase, a real-time cloud database, and then display the data using REACT.JS to produce live results displaying on a website interface.
 
 ![WiFi Weather App](public/assets/img/wifiws-home.jpg)
 
@@ -46,6 +46,7 @@ Project is to measure the temperature and humidity in real time with sensors and
 - Data logging of additional sensors (to display for the use in a variety of industries such as Agricultural, industrial or commercial Applications)
 - Weather forecasting provided by 3rd party source by API
 - Device location via GPS
+- Battery voltage monitoring & notification
 - Solar powered battery source to extend battery life
 
 
