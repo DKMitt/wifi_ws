@@ -213,7 +213,7 @@ Description of revisions made to the app - Working, last updated 7/19/2017
 
   - [x]  hardware layout - 7/2/2017
   - [x]  hardware prototype assembly - 7/5/2017
-  - [x]  hardware coding & embedding - updated 7/19/17
+  - [x]  hardware coding & embedding - updated 8/2/17
   - [x]  cloud database creation - 7/9/17
   - [x]  configure to send data to database - updated 7/19/17
   - [x]  testing data sending to database - updated 7/19/17
@@ -221,4 +221,4 @@ Description of revisions made to the app - Working, last updated 7/19/2017
   - [x]  website wire framing - 7/5/17
   - [x]  website coding - updated 7/19/17
   - [x]  file and directory structure cleanup - updated 7/19/17
-  - [x]  final testing - updated 7/19/17
+  - [x]  final testing - updated 8/2/17
