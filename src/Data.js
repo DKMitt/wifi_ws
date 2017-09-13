@@ -8,8 +8,8 @@ class Data extends Component {
 		super();
 		this.state = {
 			ctemp: 13,
-			chumidity: 23,
-			cvolts: 0.75,
+			chumidity: 25,
+			cvolts: 2.75,
 			htemp: 0,
 			hhumidity: 0
 		};
@@ -96,7 +96,7 @@ class Data extends Component {
 
 					<div className="panel1 panel-success col-md-4">
 					    <div className="panel-heading">
-					       <span> JSON Data - Current Voltage</span>
+					       <span> JSON Data - Current Battery Voltage</span>
 					    </div>
 					    <div className="panel-body">
 					        <div className="row">

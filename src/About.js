@@ -39,8 +39,10 @@ class About extends Component {
 				                <p></p>
 				                	<ul>
 				                		<li>Adafruit Feather HUZZAH ESP8266 development board with built in USB and battery charging</li>
-										<li>DHT-11 digital temperature and humidity sensor</li>
+										<li>DHT-11 Digital temperature and humidity sensor</li>
 										<li>10K Ohm Resistor, 5%, 1/4 watt Color code: Brown, Black, Orange, Gold</li>
+										<li>220K Ohm Resistor, 5%, 1/4 watt Color code: Red, Red, Yellow, Gold</li>
+										<li>1M Ohm Resistor, 5%, 1/4 watt Color code: Brown, Black, Green, Gold</li>
 									</ul>
 								</p>
 								<p></p>

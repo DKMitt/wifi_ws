@@ -10,8 +10,8 @@ class Home extends Component {
 		super();
 		this.state = {
 			ctemp: 13,
-			chumidity: 23,
-			cvolts: 0.75
+			chumidity: 25,
+			cvolts: 2.75
 		};
 	}
 
