@@ -55,10 +55,10 @@ Project is to measure the temperature and humidity in real time with sensors and
 
 Parts Used
 
-  - Adafruit Feather HUZZAH ESP8266 development board with built in USB and battery charging  [click fo image](public/assets/img/adafruit_feather_Huzzah_ESP8266_v1_1.jpg)
+  - Adafruit Feather HUZZAH ESP8266 development board with built in USB and battery charging  [click for image](public/assets/img/adafruit_feather_Huzzah_ESP8266_v1_1.jpg)
 
 
-  - DHT-11 digital temperature and humidity sensor  [click fo image](public/assets/img/DHT11-Blowup.png)
+  - DHT-11 digital temperature and humidity sensor  [click for image](public/assets/img/DHT11-Blowup.png)
 
 
   - 10K Ohm Resistor, 5%, 1/4 watt, Color code: Brown, Black, Orange, Gold   [click for image](public/assets/img/single10kOhm.jpg)
