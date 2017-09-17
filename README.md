@@ -61,9 +61,9 @@ Parts Used
   - DHT-11 digital temperature and humidity sensor  [click fo image](public/assets/img/DHT11-Blowup.png)
 
 
-  - 10K Ohm Resistor, 5%, 1/4 watt, Color code: Brown, Black, Orange, Gold   [click fo image](public/assets/img/single10kOhm.jpg)
-  - 220K Ohm Resistor, 5%, 1/4 watt, Color code: Red, Red, Yellow, Gold   [click fo image](public/assets/img/single220kOhm.jpg)
-  - 1M Ohm Resistor, 5%, 1/4 watt, Color code: Brown, Black, Green, Gold   [click fo image](public/assets/img/single1mOhm.jpg)
+  - 10K Ohm Resistor, 5%, 1/4 watt, Color code: Brown, Black, Orange, Gold   [click for image](public/assets/img/single10kOhm.jpg)
+  - 220K Ohm Resistor, 5%, 1/4 watt, Color code: Red, Red, Yellow, Gold   [click for image](public/assets/img/single220kOhm.jpg)
+  - 1M Ohm Resistor, 5%, 1/4 watt, Color code: Brown, Black, Green, Gold   [click for image](public/assets/img/single1mOhm.jpg)
 
 
   
