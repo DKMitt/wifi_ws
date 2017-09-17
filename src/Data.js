@@ -8,9 +8,9 @@ class Data extends Component {
 		constructor() {
 		super();
 		this.state = {
-			ctemp: 13,
-			chumidity: 25,
-			cvolts: 2.75,
+			ctemp: 0,
+			chumidity: 0,
+			cvolts: 0.00,
 			htemp: 0,
 			hhumidity: 0
 		};
