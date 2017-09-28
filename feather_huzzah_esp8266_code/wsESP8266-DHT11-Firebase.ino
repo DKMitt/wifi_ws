@@ -12,29 +12,26 @@
 
 DHT dht(DHTPIN, DHT11);   
 
-//
 // Copyright 2015 Google Inc.
-//
+
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
-//
+
 //     http://www.apache.org/licenses/LICENSE-2.0
-//
+
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-//
+
 // Firebase ESP8266 current & history logging of temp and humidity, wifi weather station.
 
-
 #include <ESP8266WiFi.h>
-#include <FirebaseArduino.h>
 
 // Set these to run
-#define FIREBASE_HOST "YOUR_FIREBASE_HOST"
+#define FIREBASE_HOST "YOUR_FIREBASE_HOST.firebaseio.com"
 #define FIREBASE_AUTH "YOUR_FIREBASE_AUTH"
 #define WIFI_SSID "YOUR_WIFI_SSID"
 #define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
@@ -61,6 +58,7 @@ void setup() {
   Serial.println(WiFi.localIP());
   
   Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
+  
 }
 
 
@@ -82,7 +80,7 @@ void loop() {
       Serial.println(Firebase.error());  
       return;
   }
-  delay(10000);
+  delay(1000);
 
   
   // set value
@@ -93,7 +91,7 @@ void loop() {
       Serial.println(Firebase.error());  
       return;
   }
-  delay(10000);
+  delay(1000);
 
 
   // set voltage value
@@ -104,24 +102,52 @@ void loop() {
       Serial.println(Firebase.error());  
       return;
   }
-  delay(10000);
+  delay(1000);
 
 
   // sensor data
-  Firebase.push("wsdata/htemp", t);
-  Firebase.push("wsdata/hhumidity", h);
-  // Firebase.push("wsdata/hvolts", v);
+  Firebase.push("wsdata/history/htemp", t);
+  Firebase.push("wsdata/history/hhumidity", h);
+  // Firebase.push("wsdata/history/hvolts", v);
   
-
+  // Prints out to serial monitor in blocks
   Serial.println();
-  Serial.print("temperature: ");
-  Serial.println(t);
+  Serial.print("Temperature: ");
+  Serial.print(t);
+  Serial.print("°C");
+  Serial.println(" ");
   
-  Serial.print("humidty: ");
-  Serial.println(h);
+  Serial.print("Humidty: ");
+  Serial.print(h);
+  Serial.print("%");
+  Serial.println(" ");
+    
+  Serial.print("Battery Voltage: ");
+  Serial.print(v);
+  Serial.print(" V");
+  Serial.println(" ");
+  Serial.println(" ");
+
+
+// 	Prints out to serial monitor in one row, comment out the blocks above
+//  Serial.println();
+//  Serial.print("Temp: ");
+//  Serial.print(t);
+//  Serial.print("°C");
+//  Serial.print("\t");
+ 
+//  Serial.print("Hum: ");
+//  Serial.print(h);
+//  Serial.print("%");
+//  Serial.print("\t");
   
-  // Serial.print("voltage: ");
-  // Serial.println(v);
+//  Serial.print("Volt: ");
+//  Serial.print(v);
+//  Serial.print(" V");
+//  Serial.println(" ");
+//  Serial.println(" ");
+
+//  delay(1000);  // 1000 milliseconds delay 
 
 }
 

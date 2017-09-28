@@ -4,7 +4,7 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 ![WiFi Weather Station](public/assets/img/smart-farm.jpg)
 
 
-### Project Status - Working, last updated 9/12/2017
+### Project Status - Working, last updated 9/27/2017
 
 ----
 
@@ -80,7 +80,7 @@ Code used for programming the Adafruit Feather HUZZAH ESP8266 board is located i
 * __Definition of Code__
   * [weatherStationESP8266.ino](https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/weatherStationESP8266.ino)  -  Used to test hardware was setup correctly, sends data to serial monitor. 
   * [weatherStationESP8266-ep.ino](https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/weatherStationESP8266-ep.ino)  -  Used to send data via WiFi to ThingSpeak to verify that data was sending out to a database and receiving data in
-  * [wsESP8266-DHT11-Firebase.ino](https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/wsESP8266-DHT11-Firebase.ino)  -  Completed code used to send data via WiFi to Firebase database
+  * [wsESP8266-DHT11-Firebase.ino](https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/wsESP8266-DHT11-Firebase.ino)  -  Completed code used to send data via WiFi to Firebase database, updated 9/27/17
     ​
 
 
@@ -219,8 +219,8 @@ Description of revisions made to the app - Working, last updated 9/12/2017
 
   - [x] hardware layout - 7/2/2017
   - [x] hardware prototype assembly - 7/5/2017
-  - [x] Battery voltage divider added, for monitoring battery voltage level - 9/12/2017
-  - [x] hardware coding & embedding - updated 7/19/17
+  - [x] Battery voltage divider added, for monitoring battery voltage level - 9/12/17
+  - [x] hardware coding & embedding - updated 9/27/17
   - [x] cloud database creation - 7/9/17
   - [x] configure to send data to database - updated 7/19/17
   - [x] testing data sending to database - updated 7/19/17
