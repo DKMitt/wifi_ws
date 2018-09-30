@@ -11,7 +11,7 @@ class Home extends Component {
 		this.state = {
 			ctemp: 0,
 			chumidity: 0,
-			cvolts: 0.0
+			cvolts: 0.00
 		};
 	}
 

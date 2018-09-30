@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 var config = {
 apiKey: "YOUR_APIKEY",
-authDomain: "YOUR_AUTHDOMAIN",
+authDomain: "YOUR_AUTHDOMAIN.firebaseapp.com",
 databaseURL: "YOUR_DATABASEURL",
 projectId: "YOUR_PROJECTID",
 storageBucket: "YOUR_STORAGEBUCKET",

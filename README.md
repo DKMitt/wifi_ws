@@ -4,7 +4,7 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
 ![WiFi Weather Station](public/assets/img/smart-farm.jpg)
 
 
-### Project Status - Working, last updated 7/19/2017
+### Project Status - Working, last updated 9/27/2017
 
 ----
 
@@ -19,7 +19,7 @@ WiFi Weather Station is to measure the temperature and humidity in real time wit
   -  How to use this app
   -  File and directory structure
   -  Revision history
-  
+
 ----
 
 ### WiFi Weather Station Description
@@ -37,6 +37,7 @@ Project is to measure the temperature and humidity in real time with sensors and
 - Viewable results by a website interface
 - Real time temperature and humidity monitoring as polled from sensor 
 - Battery powered, portable device
+- Battery voltage divider, for monitoring battery voltage level - 9/12/2017
 
 
 ----
@@ -54,17 +55,19 @@ Project is to measure the temperature and humidity in real time with sensors and
 
 Parts Used
 
-  - Adafruit Feather HUZZAH ESP8266 development board with built in USB and battery charging  [click fo image](public/assets/img/adafruit_feather_Huzzah_ESP8266_v1_1.jpg)
+  - Adafruit Feather HUZZAH ESP8266 development board with built in USB and battery charging  [click for image](public/assets/img/adafruit_feather_Huzzah_ESP8266_v1_1.jpg)
 
 
-  - DHT-11 digital temperature and humidity sensor  [click fo image](public/assets/img/DHT11-Blowup.png)
+  - DHT-11 digital temperature and humidity sensor  [click for image](public/assets/img/DHT11-Blowup.png)
 
 
-  - 10K Ohm Resistor, 5%, 1/4 watt, Color code: Brown, Black, Orange, Gold   [click fo image](public/assets/img/single10kOhm.jpg)
+  - 10K Ohm Resistor, 5%, 1/4 watt, Color code: Brown, Black, Orange, Gold   [click for image](public/assets/img/single10kOhm.jpg)
+  - 220K Ohm Resistor, 5%, 1/4 watt, Color code: Red, Red, Yellow, Gold   [click for image](public/assets/img/single220kOhm.jpg)
+  - 1M Ohm Resistor, 5%, 1/4 watt, Color code: Brown, Black, Green, Gold   [click for image](public/assets/img/single1mOhm.jpg)
 
 
   
-  
+
   WiFi Weather Station Breadboard Layout  
 ![WiFi Weather Station Breadboard Layout](public/assets/img/ESP8266-DHT11.jpg)
 
@@ -77,13 +80,14 @@ Code used for programming the Adafruit Feather HUZZAH ESP8266 board is located i
 * __Definition of Code__
   * [weatherStationESP8266.ino](https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/weatherStationESP8266.ino)  -  Used to test hardware was setup correctly, sends data to serial monitor. 
   * [weatherStationESP8266-ep.ino](https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/weatherStationESP8266-ep.ino)  -  Used to send data via WiFi to ThingSpeak to verify that data was sending out to a database and receiving data in
-  * [wsESP8266-DHT11-Firebase.ino](https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/wsESP8266-DHT11-Firebase.ino)  -  Used to send data via WiFi to Firebase database to verify that data was sending out to Firebase and receiving data in
+  * [wsESP8266-DHT11-Firebase.ino](https://github.com/DKMitt/wifi_ws/blob/master/feather_huzzah_esp8266_code/wsESP8266-DHT11-Firebase.ino)  -  Completed code used to send data via WiFi to Firebase database, updated 9/27/17
+    ​
 
 
 I will not be covering how to or about the code portion of the Adafruit Feather HUZZAH ESP8266 board in this description but may at some point include a separate write up on how to do that. 
 
 
-	
+​	
 ----
 
 ### Technologies used for website
@@ -94,7 +98,7 @@ Description of technologies used to develop this app.
 - REACT.JS based using [create-react-app](https://github.com/facebookincubator/create-react-app), currently it is a thin layer on top of many amazing community projects, such as:
 
 - webpack with webpack-dev-server, html-webpack-plugin and style-loader
-Babel with ES6 and extensions used by Facebook (JSX, object spread, class properties)
+  Babel with ES6 and extensions used by Facebook (JSX, object spread, class properties)
 
 - Autoprefixer
 
@@ -109,7 +113,7 @@ Babel with ES6 and extensions used by Facebook (JSX, object spread, class proper
     react-dom: 15.6.1,
     react-router: 4.1.1,
     react-router-dom: 4.1.1
-    
+
 ----
 
 
@@ -122,7 +126,6 @@ To start the app use the following command
   "npm start"   - this Runs the app in development mode.
 
   Open http://localhost:3000 to view it in the browser.
-
 
 ----
 
@@ -155,7 +158,11 @@ To start the app use the following command
 │   │       │
 │   │       ├── schematic-1.jpg
 │   │       │
+│   │       ├── single1mOhm.jpg
+│   │       │
 │   │       ├── single10kOhm.jpg
+│   │       │
+│   │       ├── single220kOhm.jpg
 │   │       │
 │   │       ├── smart-farm.jpg
 │   │       │
@@ -208,16 +215,17 @@ To start the app use the following command
 ----
 ### Revision History 
 
-Description of revisions made to the app - Working, last updated 7/19/2017
+Description of revisions made to the app - Working, last updated 9/12/2017
 
-  - [x]  hardware layout - 7/2/2017
-  - [x]  hardware prototype assembly - 7/5/2017
-  - [x]  hardware coding & embedding - updated 7/19/17
-  - [x]  cloud database creation - 7/9/17
-  - [x]  configure to send data to database - updated 7/19/17
-  - [x]  testing data sending to database - updated 7/19/17
-  - [x]  file and directory structure creation  - updated 7/5/2017
-  - [x]  website wire framing - 7/5/17
-  - [x]  website coding - updated 7/19/17
-  - [x]  file and directory structure cleanup - updated 7/19/17
-  - [x]  final testing - updated 7/19/17
+  - [x] hardware layout - 7/2/2017
+  - [x] hardware prototype assembly - 7/5/2017
+  - [x] Battery voltage divider added, for monitoring battery voltage level - 9/12/17
+  - [x] hardware coding & embedding - updated 9/27/17
+  - [x] cloud database creation - 7/9/17
+  - [x] configure to send data to database - updated 7/19/17
+  - [x] testing data sending to database - updated 7/19/17
+  - [x] file and directory structure creation  - updated 7/5/2017
+  - [x] website wire framing - 7/5/17
+  - [x] website coding - updated 7/19/17
+  - [x] file and directory structure cleanup - updated 7/19/17
+  - [x] final testing - updated 7/19/17
