@@ -10,9 +10,6 @@ class About extends Component {
 
 			<div className="container-fluid col-md-12">
 
-				
-
-				
 			<div className="col-md-10 col-md-offset-1">
 		        <h2>About</h2>
 		        <p>About this project</p>
@@ -41,6 +38,8 @@ class About extends Component {
 				                		<li>Adafruit Feather HUZZAH ESP8266 development board with built in USB and battery charging</li>
 										<li>DHT-11 digital temperature and humidity sensor</li>
 										<li>10K Ohm Resistor, 5%, 1/4 watt Color code: Brown, Black, Orange, Gold</li>
+										<li>220K Ohm Resistor, 5%, 1/4 watt Color code: Red, Red, Yellow, Gold</li>
+										<li>1M Ohm Resistor, 5%, 1/4 watt Color code: Brown, Black, Green, Gold</li>
 									</ul>
 								</p>
 								<p></p>

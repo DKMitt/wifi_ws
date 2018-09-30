@@ -9,9 +9,9 @@ class Home extends Component {
 	constructor() {
 		super();
 		this.state = {
-			ctemp: 13,
-			chumidity: 23,
-			cvolts: 0.75
+			ctemp: 0,
+			chumidity: 0,
+			cvolts: 0.0
 		};
 	}
 
